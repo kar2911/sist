@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ChatBot from '@/components/ChatBot';
+import StudentCounseling from '@/components/StudentCounseling';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -32,6 +33,7 @@ export default function RootLayout({
           <main>{children}</main>
           <Footer />
           <ChatBot />
+          <StudentCounseling />
         </ThemeProvider>
       </body>
     </html>

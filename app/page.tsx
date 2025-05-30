@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Calendar, GraduationCap, BookOpen, Users, Award, Globe, FlaskRound as Flask, Building } from 'lucide-react'
+import { Calendar, GraduationCap, BookOpen, Award, Globe, FlaskRound as Flask, Building } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[600px]">
         <Image
-          src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80"
+          src= "https://media.getmyuni.com/azure/college-images-test/sathyabama-university-su-chennai/9325d2002cd94b669fe8e86abeac0cbd.jpeg"
           alt="University Campus"
           fill
           className="object-cover"
